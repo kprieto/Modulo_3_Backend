@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ada_trabajos_ts": "file:"
+    "ada_trabajos_ts": "file:",
+    "lodash": "^4.17.21"
   }
 }
