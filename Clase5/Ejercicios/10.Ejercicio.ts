@@ -26,7 +26,7 @@ class Estudiante {
 // Clase RegistroEstudiantes
 class RegistroEstudiantes {
 
-    private listaEstudiantes: Estudiante[] = [];
+    public listaEstudiantes: Estudiante[] = [];
 
 
     agregarEstudiante(estudiante: Estudiante): void {
