@@ -11,6 +11,10 @@
   "description": "",
   "dependencies": {
     "ada_trabajos_ts": "file:",
+    "express": "^5.1.0",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17"
   }
 }
