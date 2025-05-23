@@ -1,6 +1,7 @@
 {
-  "name": "ada_trabajos_ts",
+  "name": "postman-router",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,14 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
   "dependencies": {
-    "ada_trabajos_ts": "file:",
+    "@types/express": "^5.0.2",
     "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "lodash": "^4.17.21"
-  },
-  "devDependencies": {
-    "@types/node": "^22.15.17"
+    "node-fetch": "^3.3.2",
+    "postman-router": "file:",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
   }
 }

@@ -44,5 +44,5 @@ class PagoConTarjeta extends Pago implements PagoOnline {
         console.log("Pago completado con tarjeta.");
     }
 }
-const pago = new PagoConTarjeta(100, "1234-5678-9012-3456");    
+const pago = new PagoConTarjeta(100, "1564-5678-9012-3456");    
 pago.procesarPago(100);

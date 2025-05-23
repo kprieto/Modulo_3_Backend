@@ -29,5 +29,5 @@ const usuario1 = new UsuarioConcreto("Juan", 30, 1);
 console.log(usuario1.nombre); 
 console.log(usuario1.edad); 
 console.log(usuario1.id); 
-usuario1.id = 2; 
-console.log(usuario1.id); 
+//usuario1.id = 2; 
+//console.log(usuario1.id); 
