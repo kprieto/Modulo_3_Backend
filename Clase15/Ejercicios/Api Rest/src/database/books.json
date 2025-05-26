@@ -2,7 +2,7 @@
   "info": {
     "name": "Books Database",
     "version": "1.0.0",
-    "total": 6
+    "total": 7
   },
   "books": [
     {
@@ -46,6 +46,13 @@
       "genre": "Terror",
       "year": 2020,
       "id": "6"
+    },
+    {
+      "title": "El visitante",
+      "author": "Stephen King",
+      "genre": "Terror",
+      "year": 2023,
+      "id": "7"
     }
   ]
 }

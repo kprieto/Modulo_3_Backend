@@ -47,7 +47,7 @@ export const updateBooks = (req: Request, res: Response): void =>{
     const {id}= req.params;
     // extraemos el parametro id de la soli
     const updateBooks = BooksModel.updateBooks(id, req.body);
-    res.json(updateBooks)
+    res.status(200).json({message: "Libro actualizado exitosamente.",updateBooks})
 }
 
 export const deleteBooks = (req: Request, res: Response): void =>{
@@ -58,5 +58,5 @@ export const deleteBooks = (req: Request, res: Response): void =>{
         res.status(404).json({error: "Libro no encontrado para ser borrado"})
         return
     }
-    res.status(204).send();
+    res.status(200).json({message: "Libro eliminado exitosamente."});
 }
