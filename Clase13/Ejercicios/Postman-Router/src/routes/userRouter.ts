@@ -1,4 +1,4 @@
-import {Router} from 'express';
+import {Request, Response, Router} from 'express';
 
 const router = Router();
 
@@ -22,5 +22,34 @@ router.get("/users/:id", (req, res) => {
         res.status(404).json({ error: `Usuario con ID ${idBuscado} no encontrado.` });
     }
 });
+
+const API_URL = "https://jsonplaceholder.typicode.com/users";
+
+// Función para obtener información de un usuario por ID
+async function getUserById(req: Request, res: Response): Promise<void> {
+    try {
+        const { id } = req.params;
+
+        if (isNaN(Number(id))) {
+            res.status(400).json({ error: "El ID debe ser un número válido." });
+            return;
+        }
+
+        const response = await fetch(`${API_URL}/${id}`);
+
+        if (!response.ok) {
+            res.status(404).json({ error: `Usuario con ID ${id} no encontrado.` });
+            return;
+        }
+
+        const data = await response.json();
+        res.json(data);
+    } catch (error) {
+        res.status(500).json({ error: (error as Error).message });
+    }
+}
+
+router.get("/usersInfo/:id", getUserById);
+
 
 export default router;

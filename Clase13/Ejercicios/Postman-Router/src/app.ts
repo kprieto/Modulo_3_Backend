@@ -5,6 +5,8 @@ import express from 'express'
 import userRouter from './routes/userRouter'
 import prodRouter from './routes/prodRouter'
 import aeroRouter from './routes/aeroRouter'
+import postRouter from './routes/postsRouter'
+
 
 //instancia de express
 const app = express();
@@ -15,6 +17,6 @@ app.use(express.json());
 app.use('/api', userRouter)
 app.use('/api', prodRouter)
 app.use('/api', aeroRouter)
-
+app.use('/api', postRouter)
 
 export default app;
