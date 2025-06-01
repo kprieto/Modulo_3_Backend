@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+  "target": "ES6", 
+  "module": "commonjs",
+  "outDir": "./dist",                                /* Specify what module code is generated. */
+  "strict": true,
+  "esModuleInterop": true                                    /* Enable all strict type-checking options. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

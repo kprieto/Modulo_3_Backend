@@ -1,0 +1,72 @@
+{
+  "info": {
+    "name": "Users Database",
+    "version": "1.0.0",
+    "total": 9
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Karen López",
+      "email": "karen@gmail.com",
+      "age": 28,
+      "country": "México"
+    },
+    {
+      "id": 2,
+      "name": "Luis Martínez",
+      "email": "luis@gmail.com",
+      "age": 32,
+      "country": "España"
+    },
+    {
+      "id": 3,
+      "name": "Ana Torres",
+      "email": "ana@gmail.com",
+      "age": 25,
+      "country": "Argentina"
+    },
+    {
+      "id": 4,
+      "name": "Carlos Rivera",
+      "email": "carlos@gmail.com",
+      "age": 40,
+      "country": "Colombia"
+    },
+    {
+      "id": 5,
+      "name": "Sofía Méndez",
+      "email": "sofia@gmail.com",
+      "age": 22,
+      "country": "Chile"
+    },
+    {
+      "name": "Wilbert Rubio",
+      "email": "wilbert@hotmail.com",
+      "age": 25,
+      "country": "México",
+      "id": 6
+    },
+    {
+      "name": "Sarahi Gomez",
+      "email": "sarahi@gmail.com",
+      "age": 25,
+      "country": "México",
+      "id": 7
+    },
+    {
+      "name": "Sergio Medina",
+      "email": "sergio@example.com",
+      "age": 23,
+      "country": "México",
+      "id": 8
+    },
+    {
+      "name": "Pedro Gómez",
+      "email": "pedro@example.com",
+      "age": 22,
+      "country": "Argentina",
+      "id": 9
+    }
+  ]
+}
