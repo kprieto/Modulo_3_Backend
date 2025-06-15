@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "api-rest": "file:",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "typescript": "^5.8.3"
   },
